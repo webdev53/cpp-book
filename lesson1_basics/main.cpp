@@ -2,6 +2,10 @@
 using namespace std;
 
 int main(){
- cout << "Hello World" << endl;
+
+  string name;
+  cout << "May i know your name?" << endl;
+  getline(cin, name);
+  cout << "Welcome Mr./Ms. " << name << endl;
  return 0;
 }
