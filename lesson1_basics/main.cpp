@@ -35,13 +35,14 @@ int main(){
   // cout<<"The value of r2 : " <<r2<<endl;
 
   //* area of a circle
+  /*
   float r, a;
   cout<<"Enter the value of radius of a circle"<<endl;
   cin>>r;
   // a = 22/7.0*r*r;
   a = (float)22/7*r*r;
   cout<<"Area of a circle : " << a<<endl;
-
+*/
 
  return 0;
 }
