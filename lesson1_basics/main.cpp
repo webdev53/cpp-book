@@ -60,9 +60,39 @@ int i = 5, j, k;
 // cout<< (int) a; // -128
 
 //* bitwise operator
-int x=11, y=5, z;
-z = x&y;
-cout<<z<<endl;
+// int x=11, y=5, z;
+// z = x&y;
+// cout<<z<<endl;
+
+//* enum and typedef
+/* 
+enum day {mon, tue, wed = 5,thu, fri, sat, sun}
+int main(){
+  day d;
+  d = tue;
+  cout<<d<<endl; // 1
+  cout<<mon<<endl; // 0 
+  cout<<tue<<endl; // 1 
+  cout<<wed<<endl; // 5
+  cout<<thur<<endl; // 6
+  cout<<fri<<endl; // 7
+  cout<<sat<<endl; // 8 
+}
+
+typedef
+
+typedef int marks;
+typedef int rollno;
+
+int main(){
+  
+marks m1, m2, m3;
+rollno r1, r2, r3;
+
+
+}
+
+*/
 
 
 
