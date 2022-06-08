@@ -44,5 +44,16 @@ int main(){
   cout<<"Area of a circle : " << a<<endl;
 */
 
+//* increment and decrement operator
+int i = 5, j, k;
+
+
+// k = i++;
+// cout<<k<<endl; // 5
+
+j = ++i;
+cout<<j<<endl; // 6
+
+
  return 0;
 }
