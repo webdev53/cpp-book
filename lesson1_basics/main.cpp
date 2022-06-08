@@ -51,8 +51,20 @@ int i = 5, j, k;
 // k = i++;
 // cout<<k<<endl; // 5
 
-j = ++i;
-cout<<j<<endl; // 6
+// j = ++i;
+// cout<<j<<endl; // 6
+
+//* overflow
+// char a = 127;
+// ++a;
+// cout<< (int) a; // -128
+
+//* bitwise operator
+int x=11, y=5, z;
+z = x&y;
+cout<<z<<endl;
+
+
 
 
  return 0;
