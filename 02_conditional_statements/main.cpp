@@ -3,10 +3,17 @@ using namespace std;
 
 
 int main(){
-  int a = 2, b= 5;
-  int c;
-  c = a + b;
-  cout<<c<<endl;
+
+  int x, y;
+  cout<<"Enter two numbers!"<<endl;
+  cin>>x>>y;
+
+  if(x>y){
+    cout<<"Max is " << x <<endl;
+
+  }else{
+    cout<<"Max is " << y <<endl;
+  }
   
   return 0;
 }
