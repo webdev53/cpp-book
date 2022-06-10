@@ -29,20 +29,34 @@ int main(){
   //* LOGICAL OPERATORS
   //  int age;
   //  cout<<"Enter your age";
-  //  cin>>age;
+  //  cin>>age; 
   //  if(age>=12 && age<=50){
   //    cout<<"young"<<endl;
   //  }else{
   //    cout<<"not young"<<endl;
   //  }
 
-   int age1;
-   cout<<"Enter your age";
-   cin>>age1;
-   if(age1<12 || age1>50){
-     cout<<"Eligible"<<endl;
+  //  int age1;
+  //  cout<<"Enter your age";
+  //  cin>>age1;
+  //  if(age1<12 || age1>50){
+  //    cout<<"Eligible"<<endl;
+  //  }else{
+  //    cout<<"Not Eligible"<<endl;
+  //  }
+
+  //* else if
+   int a, b, c;
+   cout<<"Enter three numbers" << endl;
+   cin>>a>>b>>c;
+
+   if(a>b && b>c){
+    cout<<"a is greater " <<endl;
+
+   }else if(b>c){
+    cout<<"b is greater than c" <<endl;
    }else{
-     cout<<"Not Eligible"<<endl;
+    cout<<"c is there"<<endl;
    }
   
   return 0;
