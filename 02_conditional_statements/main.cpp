@@ -60,19 +60,28 @@ int main(){
   //  }
 
   //* else if day ladder
-  int day;
-  cout<<"Enter day number"<<endl;
-  cin>>day;
-  if(day ==1){
-    cout<<"Sunday"<<endl;
+  // int day;
+  // cout<<"Enter day number"<<endl;
+  // cin>>day;
+  // if(day ==1){
+  //   cout<<"Sunday"<<endl;
 
-  }else if(day == 2){
-    cout<<"Monday"<<endl;
-  }else if(day == 3){
-    cout<<"Tuesday"<<endl;
-  }else{
-    cout<<"Invalid input"<<endl;
+  // }else if(day == 2){
+  //   cout<<"Monday"<<endl;
+  // }else if(day == 3){
+  //   cout<<"Tuesday"<<endl;
+  // }else{
+  //   cout<<"Invalid input"<<endl;
+  // }
+
+  //* Short Circuit
+  int a = 10, b = 5, i = 5;
+  if(a<b && ++i<=b){
+    cout<<"Short circuit is false";
+  } else if(a<b || ++i <=b){
+    cout<<"a: "<<a<<endl;
   }
+  cout<<i<<endl; //6
   
   return 0;
 }
