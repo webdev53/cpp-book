@@ -45,7 +45,7 @@ int main(){
 */
 
 //* increment and decrement operator
-int i = 5, j, k;
+// int i = 5, j, k;
 
 
 // k = i++;
