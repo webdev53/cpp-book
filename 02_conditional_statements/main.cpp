@@ -75,13 +75,38 @@ int main(){
   // }
 
   //* Short Circuit
-  int a = 10, b = 5, i = 5;
-  if(a<b && ++i<=b){
-    cout<<"Short circuit is false";
-  } else if(a<b || ++i <=b){
-    cout<<"a: "<<a<<endl;
+  // int a = 10, b = 5, i = 5;
+  // if(a<b && ++i<=b){
+  //   cout<<"Short circuit is false";
+  // } else if(a<b || ++i <=b){
+  //   cout<<"a: "<<a<<endl;
+  // }
+  // cout<<i<<endl; //6
+
+  //*dynamic declaration
+  // int a = 10, b = 5;
+
+  // if(int c = a + b; c>10){
+  //   cout<<"c : " << c << endl;
+  // }
+
+  //*switch case
+  int day;
+  cout<<"Enter day in number"<<endl;
+  cin>>day;
+
+  switch(day){
+    case 1: cout<<"Sunday"<<endl;
+            break;
+    case 2: cout<<"Monday"<<endl;
+            break;
+    case 3: cout<<"Tuesday"<<endl;
+            break;
+    case 4: cout<<"Wednesday"<<endl;
+            break;
+    default: cout<< "Invalid day"<<endl;
   }
-  cout<<i<<endl; //6
+
   
   return 0;
 }
